@@ -4,11 +4,11 @@
     title="Hello Streamwork"
     author="SAP Streamwork"
     author_email="SAP_ondemandsupport_sw@sap.com"
-    thumbnail="https://github.com/downloads/dertestbenutzer/SW---HelloWorld/documentation.png"
+    thumbnail="https://github.com/dertestbenutzer/SW---HelloWorld/raw/master/documentation.png"
     description="Simple &quot;hello world&quot; example using the SAP Streamwork Javascript Method API.">
       <Category name="Test methods"/>
-      <Require javascript="https://github.com/downloads/dertestbenutzer/SW---HelloWorld/hello_world.js"/>
-	  <Icon>https://github.com/downloads/dertestbenutzer/SW---HelloWorld/documentation.png</Icon>
+      <Require javascript="https://github.com/dertestbenutzer/SW---HelloWorld/raw/master/hello_world.js"/>
+	  <Icon>https://github.com/dertestbenutzer/SW---HelloWorld/raw/master/documentation.png</Icon>
 	  <!-- uncomment this if you want other users to use this example -->
       <!--<User email="other_user@example.com"/>-->
   </ModulePrefs>
