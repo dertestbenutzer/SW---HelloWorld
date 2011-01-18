@@ -46,6 +46,7 @@ streamwork.module("der.test.benutzer.googlemail.helloworld").methodClient = func
 		btnUpdate.onclick = function(e) 
 		{		
 			//publish the changes to the PBE agent.
+			alert(e);
 			handlers.clientChannel.publish({type: "set_data",data: {path: "myData",value: txtUpdate.value, return_msg: "data_container_update"}});						
 		}
 		//FETCH – OnClick handler.
