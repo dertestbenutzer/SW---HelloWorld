@@ -29,7 +29,7 @@ streamwork.module("der.test.benutzer.googlemail.helloworld").methodClient = func
 	function RenderControl(div, data)
 	{
 		
-		div.innerHTML = "<H1>Welcome to the Hellow World Example</H1>Enter new text: <input id=\"txtUpdate" + elementId + "\" type=\"text\">" +
+		div.innerHTML = "<H1>Welcome to the \"Hello World\" Example</H1>Enter new text: <input id=\"txtUpdate" + elementId + "\" type=\"text\">" +
 						"<button id=\"btnFetch" + elementId + "\" type = \"button\">Fetch</button>" +  
 						"<button id=\"btnUpdate" + elementId + "\" type=\"button\">Update</button><br><br>";
 				 
