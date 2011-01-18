@@ -1,0 +1,15 @@
+<Module>
+  <ModulePrefs
+    name="der.test.benutzer.googlemail.helloworld"
+    title="Hello Streamwork"
+    author="SAP Streamwork"
+    author_email="SAP_ondemandsupport_sw@sap.com"
+    thumbnail="https://github.com/downloads/dertestbenutzer/SW---HelloWorld/documentation.png"
+    description="Simple &quot;hello world&quot; example using the SAP Streamwork Javascript Method API.">
+      <Category name="Test methods"/>
+      <Require javascript="https://github.com/downloads/dertestbenutzer/SW---HelloWorld/hello_world.js"/>
+	  <Icon>https://github.com/downloads/dertestbenutzer/SW---HelloWorld/documentation.png</Icon>
+	  <!-- uncomment this if you want other users to use this example -->
+      <!--<User email="other_user@example.com"/>-->
+  </ModulePrefs>
+</Module>
