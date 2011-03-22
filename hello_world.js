@@ -1,5 +1,5 @@
 // Change APPLICATION_KEY to the one specified in your bundle.xml
-streamwork.module("der.test.benutzer.googlemail.helloworld").methodClient = function (elementId, initialData) 
+streamwork.module("der.test.benutzer.googlemail.helloworld_v1").methodClient = function (elementId, initialData) 
 {
     var Control_Area = null;
     var Data_Container = null;
@@ -49,7 +49,7 @@ streamwork.module("der.test.benutzer.googlemail.helloworld").methodClient = func
 			alert(e);
 			handlers.clientChannel.publish({type: "set_data",data: {path: "myData",value: txtUpdate.value, return_msg: "data_container_update"}});						
 		}
-		//FETCH – OnClick handler.
+		//FETCH ï¿½ OnClick handler.
 		btnFetch.onclick = function(e) 
 		{
 			handlers.clientChannel.publish({type: "get_data",data: {path: "myData", return_msg: "current_data_value"}});		
