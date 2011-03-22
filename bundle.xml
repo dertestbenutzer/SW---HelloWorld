@@ -1,6 +1,6 @@
 <Module>
   <ModulePrefs
-    name="der.test.benutzer.googlemail.helloworld"
+    name="der.test.benutzer.googlemail.helloworld_v1"
     title="Hello Streamwork"
     author="SAP Streamwork"
     author_email="SAP_ondemandsupport_sw@sap.com"
