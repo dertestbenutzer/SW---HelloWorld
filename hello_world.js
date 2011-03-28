@@ -1,5 +1,5 @@
 // Change APPLICATION_KEY to the one specified in your bundle.xml
-streamwork.module("der.test.benutzer.googlemail.helloworld_v1").methodClient = function (elementId, initialData) 
+streamwork.module("der.test.benutzer.googlemail.helloworld_v2").methodClient = function (elementId, initialData) 
 {
     var Control_Area = null;
     var Data_Container = null;
