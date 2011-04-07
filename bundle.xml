@@ -5,6 +5,7 @@
     author="SAP Streamwork"
     author_email="SAP_ondemandsupport_sw@sap.com"
     thumbnail="https://github.com/dertestbenutzer/SW---HelloWorld/raw/master/documentation.png"
+   text="this is a long text and I don't know if this works"
     description="Simple &quot;hello world&quot; example using the SAP Streamwork Javascript Method API.">
       <Category name="Test methods"/>
       <Require javascript="https://github.com/dertestbenutzer/SW---HelloWorld/raw/master/hello_world.js"/>
